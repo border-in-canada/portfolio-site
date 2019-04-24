@@ -1,0 +1,10 @@
+.imgWrapper {
+    text-align: center;
+    background-color: #513241;
+    width: 100%;
+    height: 750px;
+  }
+  
+  img {
+    width: 100%;
+  }

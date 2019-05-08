@@ -1,6 +1,45 @@
-.App {
-  text-align: center;
-  background-color: #000000;
-  height: 800px;
-  display: flex;
+
+  .App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #232526;  
+    background: -webkit-linear-gradient(to top, #414345, #232526);  
+    background: linear-gradient(to top, #414345, #232526); 
+    color: white;
+    font-weight: 200;
+    width: 100%;
+  }
+
+@media (min-width: 500px) {
+    .App {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #232526;  
+        background: -webkit-linear-gradient(to top, #414345, #232526);  
+        background: linear-gradient(to top, #414345, #232526); 
+        color: white;
+        font-weight: 200;
+        background-attachment: fixed;
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .Logo {
+      position: fixed;
+      top: 0;
+      left: 0;
+      background: red;
+      transform: SkewX(30deg);
+      margin-left: 40px;
+
+  }   
+
+    .Logo h1{
+      font-size: 48px;
+      font-weight: 200;
+      transform: SkewX(-30deg);
+    }
 }

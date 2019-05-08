@@ -1,0 +1,45 @@
+.Logo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: red;
+  transform: SkewX(30deg);
+  margin-left: 2.0em;
+}   
+
+.Logo:hover{
+  transform: scale(1.02);
+}
+
+.Logo h1{
+  font-size: 22px;
+  font-weight: 200;
+  transform: SkewX(-30deg);
+  text-decoration: none;
+  color: white;
+}
+
+@media (min-width: 500px) {
+      .Logo {
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: red;
+        transform: SkewX(30deg);
+        margin-left: 2.5em;
+        z-index: 2;
+  
+    }   
+
+    .Logo:hover{
+      transform: SkewX(30deg) scaleX(1.08);
+    }
+  
+      .Logo h1{
+        font-size: 40px;
+        font-weight: 200;
+        transform: SkewX(-30deg);
+        text-decoration: none;
+        color: white;
+      }
+  }

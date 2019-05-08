@@ -1,0 +1,45 @@
+.Navigation {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    font-size: 20px;
+    width: auto;
+}
+
+.Item {
+    padding: 10px;
+    text-decoration: none;
+    width: 100%;
+    box-sizing: border-box;
+    color: inherit;
+}
+
+@media (min-width: 500px) {
+    .Navigation {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        font-size: 30px;
+        font-weight: 200;
+    }
+
+    .Item{
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        width: 100px;
+        border-radius: 3px;
+        margin-right: 10px;
+        box-sizing: border-box;
+        color: inherit;
+    }
+
+    .Item:hover{
+        background-color: rgba(0, 0, 0, .3);
+        cursor: pointer;
+    }
+
+    .Active{
+        background-color: rgba(0, 0, 0, .3);
+    }
+}

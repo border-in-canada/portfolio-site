@@ -1,0 +1,24 @@
+
+.WebDev {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #232526;  
+  background: -webkit-linear-gradient(to top, #414345, #232526);  
+  background: linear-gradient(to top, #414345, #232526);
+  margin-top: 60px;
+ 
+}
+
+@media (min-width: 500px) {
+
+  .WebDev {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+  }
+
+}
+
+

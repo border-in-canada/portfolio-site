@@ -1,0 +1,29 @@
+.Container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 15em;
+}
+
+.Container h1{
+    font-size: 52px;
+    font-weight: 200;
+}
+
+.Clip {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Clip h2{
+    font-size: 24px;
+    font-weight: 200;
+    margin-bottom: 3em;
+}
+
+.Clip iFrame{
+    padding-bottom: 5em;
+}

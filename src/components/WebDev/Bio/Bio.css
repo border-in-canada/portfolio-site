@@ -1,0 +1,50 @@
+.Container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10em;
+  width: 100%;
+  height: auto;
+  border: 1px solid white;
+}
+
+.Bio {
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, .1);
+  
+}
+
+.Bio img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+@media (min-width: 500px) {
+
+.Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20em;
+
+}
+
+.Bio {
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    background-color: rgba(0, 0, 0, .1);
+    border-radius: 5px;
+  }
+  
+  .Bio img {
+    width: 100%;
+    border-radius: 100px;
+  }
+}

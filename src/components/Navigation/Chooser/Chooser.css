@@ -1,0 +1,134 @@
+.Container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 7em;
+    width: 100vw;
+    height: 100vh;
+}
+
+.Button1 {
+    width: 90vw;
+    overflow: hidden;
+    background-image:url('../../../assets/images/screencast.gif');
+    background-size:cover;
+    margin-bottom: 20px;
+    padding-top: 4em;
+    font-size: 28px;
+    border-radius: 8px;
+    color:#FFFFFF;
+    text-decoration:none;
+    text-align: center;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 6px 0px rgba(0,0,0,0.62);
+}
+
+.Button2 {
+    width: 90vw;
+    overflow: hidden;
+    background-image:url('../../../assets/images/studio-crop.png');
+    background-size:cover;
+    font-size: 28px;
+    padding-top: 4em;
+    color:#FFFFFF;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration:none;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 6px 0px rgba(0,0,0,0.62);
+}
+
+@media (min-width: 500px) {
+
+.Container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 90vw;
+    height: 100vh;
+    margin-top: 5em;
+}
+
+.Button1 {
+    width: 45vw;
+    height: 45vh;
+    overflow: hidden;
+    background-image:url('../../../assets/images/screencast.gif');
+    background-size:cover;
+    margin-right: 2em;
+    font-size: 42px;
+    padding-top: 2.5em;
+    border-radius: 8px;
+    color:#FFFFFF;
+    text-decoration:none;
+    text-align: center;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 6px 0px rgba(0,0,0,0.62);
+}
+
+.Button1:hover{
+    transform: scale(1.02);
+    transition: all .3s; 
+}
+
+.Button2 {
+    width: 45vw;
+    height: 45vh;
+    overflow: hidden;
+    background-image:url('../../../assets/images/studio-crop.png');
+    background-size:cover;
+    font-size: 42px;
+    padding-top: 2.5em;
+    color:#FFFFFF;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration:none;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 6px 0px rgba(0,0,0,0.62);
+}
+
+.Button2:hover{
+    transform: scale(1.02);
+    transition: all .3s;
+}
+
+
+.Button1::after {
+    content: "";
+    height: 110vh;
+    width: 110vw;
+    display: block;
+    margin-top: -4.2em;
+    width: 100vw;
+    opacity: 0;
+    background: rgba(0,0,0,.5);
+    background-size: cover;
+    -moz-transition: all .5s;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+}
+
+.Button2::after {
+    content: "";
+    height: 110vh;
+    width: 110vw;
+    opacity: 0;
+    display: block;
+    margin-top: -4.2em;
+    background: rgba(0,0,0,.5);
+    background-size: cover;
+    -moz-transition: all .5s;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+}
+
+
+.Button1:hover::after{
+    opacity: 1; 
+}
+
+.Button2:hover::after{
+    opacity: 1;
+}
+
+}

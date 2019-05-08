@@ -10,12 +10,11 @@
 .Bio {
   font-size: 22px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
-  box-sizing: border-box;
   background-color: rgba(0, 0, 0, .1);
-  
 }
 
 .Bio img {
@@ -23,21 +22,34 @@
   border-radius: 15px;
 }
 
-@media (min-width: 500px) {
+.figureThing {
+  margin: 22px 40px;
+}
 
-.Container {
-    display: flex;
+.words {
+  margin: 40px;
+}
+
+@media only screen and (min-width: 769px) {
+  .Bio {
+    flex-direction: row;
+  }
+
+  .words {
+    margin-left: 0px;
+  }
+}
+
+@media only screen and (min-width: 500px) {
+
+  .Container {
     justify-content: center;
     align-items: center;
     padding-top: 20em;
 
-}
+  }
 
-.Bio {
-    font-size: 22px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  .Bio {
     width: 75%;
     background-color: rgba(0, 0, 0, .1);
     border-radius: 5px;

@@ -10,6 +10,7 @@
 .Bio {
   font-size: 22px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
@@ -25,6 +26,10 @@
 
 @media (min-width: 500px) {
 
+  .Figure{
+    margin: 22px 40px;
+  }
+
 .Container {
     display: flex;
     justify-content: center;
@@ -33,18 +38,39 @@
 
 }
 
+.Words {
+  margin-left: 0px;
+}
+}
+@media only screen and (min-width: 769px) {
+
+  .Bio {
+    flex-direction: row;
+  }
+
+  .Words {
+    margin-left: 0px;
+  }
+}
+
 .Bio {
     font-size: 22px;
     display: flex;
+}
+
+@media only screen and (min-width: 500px) {
+  .Container {
     justify-content: center;
     align-items: center;
+    padding-top: 20em;
+  }
+
+   .Bio {
     width: 75%;
     background-color: rgba(0, 0, 0, .1);
     border-radius: 5px;
-  }
-  
-  .Bio img {
-    width: 100%;
-    border-radius: 100px;
-  }
+   } 
+    
 }
+  
+  

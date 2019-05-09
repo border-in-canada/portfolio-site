@@ -5,7 +5,6 @@
     background-color: rgba(0, 0, 0, .1);
     margin: 0em 9em;
     padding: 2em 4em;
-    margin-bottom: 18em;
     font-size: 20px;
     line-height: .5em;
 }
@@ -13,4 +12,13 @@
 .Contact a{
     text-decoration: none;
     color: white;
+}
+
+@media (min-width: 500px) {
+    .Container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
 }

@@ -1,7 +1,7 @@
 import React from 'react';
 import NavigationItems from '../NavigationItems/NavigationItems';
 import classes from './SideDrawer.css';
-// import Backdrop from '../../UI/Backdrop/Backdrop';
+import Backdrop from '../Backdrop/Backdrop';
 import Aux from '../../../hoc/Aux/Aux';
 
 const sideDrawer = (props) => {
@@ -11,6 +11,7 @@ const sideDrawer = (props) => {
     }
     return (
         <Aux>
+            <Backdrop show={props.open} clicked={props.closed}/>
             <div className={attachedClasses.join(' ')}>
                 <nav>
                     <NavigationItems />

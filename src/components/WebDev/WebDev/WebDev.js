@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import classes from './WebDev.css';
 import SideDrawer from '../../Navigation/SideDrawer/SideDrawer';
-import image from '../../../assets/images/MePic.jpg';
-import Aux from '../../../hoc/Aux/Aux';
 import Toolbar from '../../Navigation/Toolbar/Toolbar';
 import Bio from '../Bio/Bio';
 import Gallery from '../Gallery/Gallery';

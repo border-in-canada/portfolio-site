@@ -22,19 +22,17 @@
     }
   }
 
-
-.Splash {
-    width: 90%;
-    padding: 0em 2em;
-    margin-top: 6em;
-    font-size: 40px; 
+  .Splash {
+    width: 100%;
+    padding: 0em 1em;
+    margin-top: 5em;
+    font-size: 28px; 
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
 .First {
-    font-size: 40px;
     opacity: 0;
     animation-name: fadeInOut;
     animation-timing-function: linear;
@@ -44,7 +42,6 @@
 }
 
 .Second {
-    font-size: 40px;
     opacity: 0;
     animation-name: fadeInOut;
     animation-timing-function: linear;
@@ -54,7 +51,6 @@
 }
 
 .Third {
-    font-size: 40px;
     opacity: 0;
     animation-name: fadeInOut;
     animation-timing-function: linear;
@@ -63,8 +59,13 @@
     animation-iteration-count: 1;
 }
 
+@media (min-width: 500px) {
+  .Splash {
+    width: 90%;
+    padding: 0em 2em;
+    margin-top: 6em;
+    font-size: 40px; 
+    
+}
 
-
-
-
-
+}

@@ -1,12 +1,10 @@
 
 .WebDev {
+  width: 100%;
   display: flex;
+  overflow: auto;
   flex-direction: column;
   align-items: center;
-  background: #232526;  
-  background: -webkit-linear-gradient(to top, #414345, #232526);  
-  background: linear-gradient(to top, #414345, #232526);
-  margin-top: 60px;
  
 }
 

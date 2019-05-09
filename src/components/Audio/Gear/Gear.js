@@ -7,8 +7,6 @@ import Aux from '../../../hoc/Aux/Aux';
 const gear = () => (
     <Aux>
         <div name='gear' className={classes.Container}>
-            
-            <div className={classes.List}>
                 <div className={classes.ListItem}>
                     <h1>Main Features</h1>
                     <p>Apogee Ensemble x2</p>
@@ -33,7 +31,6 @@ const gear = () => (
                     <p>Shure Beta 52A Mic</p>
                     <p>Audix D2 & D4 Inst Mics</p>
                 </div>
-            </div>
         </div>
         <div className={classes.Gear}>
                 <img src={outboard} alt='gear-photo' />

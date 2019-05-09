@@ -2,7 +2,7 @@ import React from 'react';
 import classes from './AudioToolbar.css';
 import AudioLogo from '../../Audio/AudioLogo/AudioLogo';
 import AudioNavigationItems from '../AudioNavigationItems/AudioNavigationItems';
-import DrawerToggle from '../SideDrawer/DrawerToggle/DrawerToggle';
+import DrawerToggle from '../AudioSideDrawer/DrawerToggle/DrawerToggle';
 
 const audioToolbar = (props) => (
     <header className={classes.Toolbar}>

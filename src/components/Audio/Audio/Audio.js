@@ -25,7 +25,7 @@ class Audio extends Component {
 
     render() {
         return (
-            <div className={classes.Loaded}>
+            <div className={classes.Audio}>
                 <AudioToolbar drawerToggleClicked={this.sideDrawerToggleHandler}/>
                 <AudioSideDrawer open={this.state.showSideDrawer} closed={this.sideDrawerClosedHandler}/>
                 <Splash />

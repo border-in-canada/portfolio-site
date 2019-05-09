@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import classes from './Gallery.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/fontawesome-free-brands';
-import Aux from '../../../hoc/Aux/Aux';
 import burger from '../../../assets/images/burger.jpg';
 import quotgen from '../../../assets/images/quotgen3.jpg';
 import weather from '../../../assets/images/weather3.jpg';
@@ -13,7 +12,7 @@ import techdoc from '../../../assets/images/techdoc3.jpg';
 
 
 const gallery = () => (
-    <Aux>
+    <div>
         <h1 name='work' style={{textAlign: 'center', marginTop: '6em', fontSize: '48px'}}>Work</h1>
         <div className={classes.Gallery}>
             <div><Link to='/webdev/burger-builder'><img src={burger} alt='screenshot' /></Link></div>
@@ -30,7 +29,7 @@ const gallery = () => (
             <a href='https://www.github.com/border-in-canada' target='_blank' rel='noopener noreferrer'><FontAwesomeIcon  icon={ faGithub } /></a>
             <a href='https://www.linkedin.com/in/davemathes' target='_blank' rel='noopener noreferrer'><FontAwesomeIcon  icon={ faLinkedin } /></a>
         </div>
-    </Aux>
+    </div>
    
 );
 

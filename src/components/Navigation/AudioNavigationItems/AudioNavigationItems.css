@@ -1,18 +1,19 @@
 .Navigation {
+    margin-top: 2em;
     display: flex;
     flex-direction: column;
     list-style: none;
-    font-size: 16px;
-    
+    font-size: 20px;
+    width: auto;
 }
 
 .Item {
-    padding: 5px;
+    padding: 10px;
     text-decoration: none;
     width: 100%;
     box-sizing: border-box;
     color: inherit;
-    background-color: rgba(0, 0, 0, .8);
+    
 }
 
 @media (min-width: 500px) {
@@ -33,10 +34,11 @@
         margin-right: 10px;
         box-sizing: border-box;
         color: inherit;
+        background-color: rgba(0, 0, 0, .3);
     }
 
     .Item:hover{
-        background-color: rgba(0, 0, 0, .3);
+        background-color: rgba(0, 0, 0, .1);
         cursor: pointer;
     }
 

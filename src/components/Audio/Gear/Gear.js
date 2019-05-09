@@ -33,8 +33,8 @@ const gear = () => (
                 </div>
         </div>
         <div className={classes.Gear}>
-                <img src={outboard} alt='gear-photo' />
-                <img src={mics} alt='mic-photo' />
+                <img src={outboard} alt='gear' />
+                <img src={mics} alt='mic' />
         </div>
     </Aux>
 );

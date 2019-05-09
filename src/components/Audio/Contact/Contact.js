@@ -1,6 +1,5 @@
 import React from 'react';
 import classes from './Contact.css';
-import Aux from '../../../hoc/Aux/Aux';
 
 const contact = () => (
     <div name='contact' className={classes.Container}>

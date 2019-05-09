@@ -11,6 +11,10 @@ class WebDev extends Component {
         showSideDrawer: false
     }
 
+    componentDidMount() {
+        window.scrollTo(0, 0);
+    }
+
     sideDrawerClosedHandler = () => {
         this.setState({showSideDrawer: false});
     }
@@ -25,7 +29,7 @@ class WebDev extends Component {
         return (
                 <div className={classes.WebDev}>
                     <Toolbar drawerToggleClicked={this.sideDrawerToggleHandler}/>
-                    <SideDrawer open={this.state.showSideDrawer} closed={this.sideDrawerClosedHandler}/>
+                    <SideDrawer active={this.sideDrawerClosedHandler} open={this.state.showSideDrawer} closed={this.sideDrawerClosedHandler}/>
                     <Bio />
                     <Gallery />
                     <Contact />

@@ -1,25 +1,38 @@
-import React from 'react';
+import React, { Component } from 'react';
 import AudioNavigationItems from '../AudioNavigationItems/AudioNavigationItems';
 import classes from './AudioSideDrawer.css';
 import Backdrop from '../Backdrop/Backdrop';
 import Aux from '../../../hoc/Aux/Aux';
 
-const audioSideDrawer = (props) => {
-    let attachedClasses = [classes.SideDrawer, classes.Close];
-    if (props.open) {
-        attachedClasses = [classes.SideDrawer, classes.Open];
-    }
-    return (
-        <Aux>
-            <Backdrop show={props.open} clicked={props.closed}/>
-            <div className={attachedClasses.join(' ')}>
-                <nav>
-                    <AudioNavigationItems />
-                </nav>
-            </div>
-        </Aux>
-        
-    );
-};
+class AudioSideDrawer extends Component {
+    
+    render() {
 
-export default audioSideDrawer;
+        let attachedClasses = [classes.SideDrawer, classes.Close];
+        if (this.props.open) {
+            attachedClasses = [classes.SideDrawer, classes.Open];
+        }
+        // else if (this.props.open && this.state.isActive) {
+        //     attachedClasses = [classes.SideDrawer, classes.Close];
+        // }
+        // else if (this.props.open){
+        //     attachedClasses = [classes.SideDrawer, classes.Open];
+        // }
+        
+    
+        return (
+            <Aux>
+                <Backdrop show={this.props.open} clicked={this.props.closed}/>
+                <div className={attachedClasses.join(' ')}>
+                    <nav>
+                        <AudioNavigationItems isActive={this.props.active}/>
+                    </nav>
+                </div>
+            </Aux>
+            
+        );
+    }
+    
+}
+
+export default AudioSideDrawer;

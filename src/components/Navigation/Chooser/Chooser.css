@@ -8,7 +8,7 @@
 }
 
 .Button1 {
-    width: 90vw;
+    width: 80vw;
     overflow: hidden;
     background-image:url('../../../assets/images/screencast.gif');
     background-size:cover;
@@ -24,7 +24,7 @@
 }
 
 .Button2 {
-    width: 90vw;
+    width: 80vw;
     overflow: hidden;
     background-image:url('../../../assets/images/studio-crop.png');
     background-size:cover;
@@ -50,8 +50,8 @@
 }
 
 .Button1 {
-    width: 45vw;
-    height: 45vh;
+    width: 40vw;
+    height: 40vh;
     overflow: hidden;
     background-image:url('../../../assets/images/screencast.gif');
     background-size:cover;
@@ -72,8 +72,8 @@
 }
 
 .Button2 {
-    width: 45vw;
-    height: 45vh;
+    width: 40vw;
+    height: 40vh;
     overflow: hidden;
     background-image:url('../../../assets/images/studio-crop.png');
     background-size:cover;

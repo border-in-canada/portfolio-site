@@ -13,6 +13,10 @@ class Audio extends Component {
         showSideDrawer: false
     }
 
+    componentDidMount() {
+        window.scrollTo(0, 0)
+    }
+
     sideDrawerClosedHandler = () => {
         this.setState({showSideDrawer: false});
     }
@@ -27,7 +31,7 @@ class Audio extends Component {
         return (
             <div className={classes.Audio}>
                 <AudioToolbar drawerToggleClicked={this.sideDrawerToggleHandler}/>
-                <AudioSideDrawer open={this.state.showSideDrawer} closed={this.sideDrawerClosedHandler}/>
+                <AudioSideDrawer active={this.sideDrawerClosedHandler} open={this.state.showSideDrawer} closed={this.sideDrawerClosedHandler}/>
                 <Splash />
                 <About />
                 <Gear />

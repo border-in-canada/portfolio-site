@@ -12,6 +12,10 @@
     margin-bottom: 3em;
 }
 
+.ListItem p{
+    font-size: 20px;
+}
+
 .Gear {
     width: 80%;
     margin: 4em 2em;
@@ -44,17 +48,11 @@
     border-radius: 3px;
 }
 
-.List {
-    margin: 8em 0em 10em 0em;
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}
-
 .ListItem{
     width: 30%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 }

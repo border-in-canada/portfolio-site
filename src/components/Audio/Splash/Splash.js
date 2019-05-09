@@ -1,6 +1,5 @@
 import React from 'react';
 import classes from './Splash.css';
-import creep from '../../../assets/images/presspic2.jpg';
 
 const splash = () => (
     <div className={classes.Splash}>

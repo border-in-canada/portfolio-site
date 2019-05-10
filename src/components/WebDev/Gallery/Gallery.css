@@ -32,6 +32,19 @@
     color: white;
 }
 
+.Pdf {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.Pdf a{
+    color: white;
+    font-size: 28px;
+    text-decoration: underline;
+}
+
 .Gallery img{
     width: 100%;
 }
@@ -89,5 +102,9 @@
         -moz-box-shadow: 10px 10px 6px 0px rgba(0,0,0,0.62);
         box-shadow: 10px 10px 6px 0px rgba(0,0,0,0.62);
         transition: all .3s;
+    }
+    .Pdf a:hover{
+        color: red;
+        
     }
 }

@@ -9,6 +9,7 @@ import weather from '../../../assets/images/weather3.jpg';
 import form from '../../../assets/images/Form3.jpg';
 import tribute from '../../../assets/images/Boards2.jpg';
 import techdoc from '../../../assets/images/techdoc3.jpg';
+import resume from '../../../assets/PDF/Resume.pdf';
 
 
 const gallery = () => (
@@ -23,11 +24,14 @@ const gallery = () => (
             <div><a href='https://codepen.io/border-in-canada/full/rZoryV' target="_blank" rel='noopener noreferrer'><img src={techdoc} alt='screenshot' /></a></div>
         </div>
         <div className={classes.Icons}>
-            <p>View my code and skills:</p>
+            <p>Code and Skills:</p>
         </div>
         <div className={classes.Icons}>
             <a href='https://www.github.com/border-in-canada' target='_blank' rel='noopener noreferrer'><FontAwesomeIcon  icon={ faGithub } /></a>
             <a href='https://www.linkedin.com/in/davemathes' target='_blank' rel='noopener noreferrer'><FontAwesomeIcon  icon={ faLinkedin } /></a>
+        </div>
+        <div className={classes.Pdf}>
+            <a href={resume} type="application/pdf" target='_blank' rel='noopener noreferrer'>View my Resumé</a>
         </div>
     </div>
    

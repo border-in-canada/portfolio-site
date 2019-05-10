@@ -15,7 +15,7 @@ const gallery = () => (
     <div>
         <h1 name='work' style={{textAlign: 'center', marginTop: '6em', fontSize: '48px'}}>Work</h1>
         <div className={classes.Gallery}>
-            <div><Link to='/webdev/burger-builder'><img src={burger} alt='screenshot' /></Link></div>
+            <div><a href='https://burg-builder.herokuapp.com/' target="_blank" rel='noopener noreferrer'><img src={burger} alt='screenshot' /></a></div>
             <div><a href='https://codepen.io/border-in-canada/full/YLgoeq' target="_blank" rel='noopener noreferrer'><img src={quotgen} alt='screenshot' /></a></div>
             <div><a href='https://codepen.io/border-in-canada/full/rvgNJZ' target="_blank" rel='noopener noreferrer'><img src={weather} alt='screenshot' /></a></div>
             <div><a href='https://codepen.io/border-in-canada/full/odzyGK' target="_blank" rel='noopener noreferrer'><img src={tribute} alt='screenshot' /></a></div>

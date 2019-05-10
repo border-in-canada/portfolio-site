@@ -8,7 +8,7 @@ const bio = () => (
                 <div className={classes.Figure}>
                     <img src={image} alt='Pic of DM' />
                 </div>
-            <p className={classes.Words}>I'm David Mathes, a Front-end web developer with a background in IT. I'm a curious, fast-paced programmer with a knack for tinkering and figuring out how things work. I also strongly believe in open-source software and the community it fosters. When I'm not programming you can find me engineering records and playing drums:)<br /><br />Are you looking for someone to help you with your website? Check out my projects here and reach out if you'd like to talk about your project.</p>
+            <p className={classes.Words}>I live in Portland, Oregon where I've been working on everything tech for the past 5 years. My passion for web development has been fostered from my 10 years of IT experience, and I'm looking to step into a development role full time. My implements of choice include HTML, CSS, Javascript, React, and jQuery. Outside the codelab you can find me producing music, playing drums, or in a local body of water.<br /><br />I currently work at Gresham-Barlow School District as a Tier II support technician.</p>
         </div>            
     </div>
     
